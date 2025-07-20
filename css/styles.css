@@ -1774,10 +1774,10 @@ background-color: #404bbf;
     margin-bottom: 8px;
   }
 
-  .strategy-section-two {
-    font-weight: 500;
-    margin-bottom: 8px;
-  }
+.strategy-section-two {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
 
   .p-section-two {
     letter-spacing: 0.02em;
