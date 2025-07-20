@@ -94,7 +94,7 @@ button {
 background-color: rgb(46, 47, 66);
 text-align: center;
 letter-spacing: 0.02em;
-padding: 112px 0;
+padding: 72px 0;
 background-image: linear-gradient(
 
 rgba(46, 47, 66, 0.7),
@@ -394,7 +394,7 @@ color: #434455;
   flex-direction: column;
   align-items: center; 
   text-align: center; 
-  margin-bottom: 72px; 
+  
 }
 
 .footer-social-title,
@@ -1163,9 +1163,7 @@ background-color: #404bbf;
     display: flex; 
     flex-wrap: wrap; 
     column-gap: 24px; 
-    row-gap: 72px;  
-    padding-top: 96px; 
-    padding-bottom: 96px; 
+    row-gap: 72px;   
     flex-direction: row;
     justify-content: center;
   }
@@ -1422,9 +1420,11 @@ background-color: #404bbf;
 
 
     .business {
+      padding: 112px 0;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
         url("../images/backround.jpg");
+
     }
 
     @media (min-resolution: 2x) {
@@ -1484,8 +1484,9 @@ background-color: #404bbf;
   
     .address-ul {
       display: flex; 
-      gap: 4px; 
+      gap: 12px; 
       flex-direction: column;
+      font-size: 12px;
     }
   
     .contact-link {
@@ -1642,7 +1643,6 @@ background-color: #404bbf;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
     margin-right: 76px;
   }
 
@@ -1689,6 +1689,7 @@ background-color: #404bbf;
     display: flex;
     gap: 40px;
     flex-direction: row;
+    font-size: 16px;
   }
 
   .contact-link {
